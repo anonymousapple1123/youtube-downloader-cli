@@ -26,24 +26,8 @@ Desiring more control, transparency, and a streamlined experience, I decided to 
 Ensure the following are installed on your system:
 
 * **Python 3.6+**
-* **yt-dlp**: Install via pip:
 
-  ```bash
-  pip install yt-dlp
-  ```
-* **ffmpeg**: Required for merging video and audio. Installation methods vary:
-
-  * **macOS**:
-
-    ```bash
-    brew install ffmpeg
-    ```
-  * **Ubuntu/Debian**:
-
-    ```bash
-    sudo apt install ffmpeg
-    ```
-  * **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to your system PATH.
+* **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to your system PATH and install run `pip install yt-dlp` inside venv.
 
 ## 📄 Usage
 
@@ -57,7 +41,7 @@ Ensure the following are installed on your system:
 2. **Run the Script**:
 
    ```bash
-   python main.py
+   python3 run.py
    ```
 
 3. **Follow the Prompts**:
